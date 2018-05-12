@@ -1,7 +1,6 @@
 language: csharp
-solution: MALSharp.sln
-script:   
-  - ./build.sh
-  - ./test.sh
-  - grep "Test Results" build.log
+mono: none
+dotnet: 1.1.5
+script:
+ - dotnet restore
   
