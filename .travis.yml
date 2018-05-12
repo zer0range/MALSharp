@@ -1,0 +1,4 @@
+language: csharp
+solution: MALSharp.sln
+mono:
+  - latest
